@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseBatchGeocodingRequest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinates.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseBatchGeocodingRequest.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +69,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ReverseGeocoding.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseGeocodingRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ForwardGeocoding.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/IMapboxGeocodingService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Coordinates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseBatchGeocodingRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/BatchGeocoding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628904209736</updated>
       <workItem from="1628904218518" duration="5705000" />
-      <workItem from="1628910188423" duration="8980000" />
+      <workItem from="1628910188423" duration="9742000" />
     </task>
     <servers />
   </component>

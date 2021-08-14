@@ -5,6 +5,11 @@ namespace Models.Geocoding
 {
     public class Properties
     {
+        [JsonProperty("wikidata")]
+        public string Wikidata { get; set; }
+
+        [JsonProperty("short_code")]
+        public string ShortCode { get; set; }
     }
 
     public class Geometry
