@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Enums;
 using Models;
 using Models.Map;
+using Models.Requests;
 
 namespace Services.MapboxMaps
 {
@@ -58,17 +59,14 @@ namespace Services.MapboxMaps
             }
         }
 
-        public async Task<Response<RasterTile>> GetRasterTileMap()
+        public async Task<Response<RasterTile>> GetRasterTileMap(GetRasterTileRequest request)
         {
+            if(request == null)
+                throw new ArgumentNullException();
             var response = new Response<RasterTile>();
             try
             {
-                var tilesetId = "mapbox.satellite";
-                var zoom = "1";
-                var x = "0";
-                var y = "0";
-                var format = "jpg90";
-                response.Payload.Bytes = await RetrieveBytes($"v4/{tilesetId}/{zoom}/{x}/{y}@2x.{format}?access_token={_mapBoxToken}");
+                response.Payload.Bytes = await RetrieveBytes($"v4/{request.TilesetId}/{request.Zoom}/{request.X}/{request.Y}@2x.{request.Format}?access_token={_mapBoxToken}");
                 return response;
             }
             catch (Exception e)
