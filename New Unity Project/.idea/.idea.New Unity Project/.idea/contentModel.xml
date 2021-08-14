@@ -7,7 +7,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="Models" t="Include" />
+          <e p="Enums" t="Include">
+            <e p="ResponseStatusCode.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="Response.cs" t="Include" />
+          </e>
           <e p="Services" t="Include">
             <e p="MapboxMaps" t="Include">
               <e p="IMapboxMapService.cs" t="Include" />
