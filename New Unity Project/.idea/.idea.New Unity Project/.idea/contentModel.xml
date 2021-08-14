@@ -11,6 +11,9 @@
             <e p="ResponseStatusCode.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
+            <e p="Map" t="Include">
+              <e p="VectorTile.cs" t="Include" />
+            </e>
             <e p="Response.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
