@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseBatchGeocodingRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinates.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseBatchGeocodingRequest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/MapboxGeocodingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/MapboxGeocodingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC3985D3-7B02-41B4-8FC2-1474B2DE25BD/45/1b0bd050/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/38/fbbfcfb7/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/7e/9dcd761d/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/a9/8d8c6315/TaskAwaiter`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -69,14 +66,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ReverseGeocoding.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseGeocodingRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ForwardGeocoding.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/IMapboxGeocodingService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Coordinates.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetBatchGeocodingRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetReverseBatchGeocodingRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/BatchGeocoding.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/Geocoding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/IMapboxGeocodingService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Coordinate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetForwardBatchGeocodingRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/MapboxGeocodingService.cs" />
       </list>
     </option>
   </component>
@@ -109,10 +107,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27672">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="27672" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -128,7 +126,8 @@
       <option name="presentableId" value="Default" />
       <updated>1628904209736</updated>
       <workItem from="1628904218518" duration="5705000" />
-      <workItem from="1628910188423" duration="9742000" />
+      <workItem from="1628910188423" duration="13115000" />
+      <workItem from="1628936624953" duration="3258000" />
     </task>
     <servers />
   </component>
@@ -153,74 +152,74 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1559" height="307" key="GridCell.Tab.0.bottom" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.0.bottom" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.0.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.0.center" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.0.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.0.center" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.0.center/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.0.left" timestamp="1628912871459">
+    <state width="1559" height="307" key="GridCell.Tab.0.center/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.0.left" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.0.left/0.0.1603.873@0.0.1603.873" timestamp="1628912871459" />
-    <state width="1559" height="307" key="GridCell.Tab.0.right" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.0.left/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.0.right" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.0.right/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.1.bottom" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.0.right/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.1.bottom" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.1.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.1.center" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.1.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.1.center" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.1.center/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.1.left" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.1.center/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.1.left" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.1.left/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.1.right" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.1.left/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.1.right" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.1.right/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.2.bottom" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.1.right/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.2.bottom" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.2.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.2.center" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.2.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.2.center" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.2.center/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.2.left" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.2.center/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.2.left" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.2.left/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.2.right" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.2.left/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.2.right" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.2.right/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.3.bottom" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.2.right/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.3.bottom" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.3.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.3.center" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.3.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.3.center" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.3.center/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.3.left" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.3.center/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.3.left" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.3.left/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state width="1559" height="307" key="GridCell.Tab.3.right" timestamp="1628912871460">
+    <state width="1559" height="307" key="GridCell.Tab.3.left/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state width="1559" height="307" key="GridCell.Tab.3.right" timestamp="1628925256028">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state width="1559" height="307" key="GridCell.Tab.3.right/0.0.1603.873@0.0.1603.873" timestamp="1628912871460" />
-    <state x="621" y="125" key="RiderGenerateDialog" timestamp="1628905652765">
+    <state width="1559" height="307" key="GridCell.Tab.3.right/0.0.1603.873@0.0.1603.873" timestamp="1628925256028" />
+    <state x="621" y="125" key="RiderGenerateDialog" timestamp="1628921280591">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="621" y="125" key="RiderGenerateDialog/0.0.1603.873@0.0.1603.873" timestamp="1628905652765" />
+    <state x="621" y="125" key="RiderGenerateDialog/0.0.1603.873@0.0.1603.873" timestamp="1628921280591" />
     <state x="92" y="92" width="1418" height="687" key="VCS.FileHistoryDialog" timestamp="1628913653660">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
