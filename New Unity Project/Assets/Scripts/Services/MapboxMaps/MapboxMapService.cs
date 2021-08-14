@@ -77,6 +77,8 @@ namespace Services.MapboxMaps
 
         public async Task<Response<StaticImage>> GetStaticImageMap(GetStaticImageRequest request)
         {
+            if(request == null)
+                throw new ArgumentNullException();
             var response = new Response<StaticImage>();
             try
             {
@@ -91,18 +93,14 @@ namespace Services.MapboxMaps
             }
         }
 
-        public async Task<Response<StaticTile>> GetStaticTileMap()
+        public async Task<Response<StaticTile>> GetStaticTileMap(GetStaticTileRequest request)
         {
+            if(request == null)
+                throw new ArgumentNullException();
             var response = new Response<StaticTile>();
             try
             {
-                var x = "1";
-                var y = "0";
-                var username = "mapbox";
-                var styleId = "satellite-v9";
-                var tilesize = "1";
-                var z = "1";
-                response.Payload.Bytes = await RetrieveBytes($"styles/v1/{username}/{styleId}/tiles/{tilesize}/{z}/{x}/{y}@2x?access_token={_mapBoxToken}");
+                response.Payload.Bytes = await RetrieveBytes($"styles/v1/{request.Username}/{request.StyleId}/tiles/{request.TileSize}/{request.Z}/{request.X}/{request.Y}@2x?access_token={_mapBoxToken}");
                 return response;
             }
             catch (Exception e)

@@ -10,6 +10,6 @@ namespace Services.MapboxMaps
         Task<Response<VectorTile>> GetVectorTileMap(GetVectorTileRequest request);
         Task<Response<RasterTile>> GetRasterTileMap(GetRasterTileRequest request);
         Task<Response<StaticImage>> GetStaticImageMap(GetStaticImageRequest request);
-        Task<Response<StaticTile>> GetStaticTileMap();
+        Task<Response<StaticTile>> GetStaticTileMap(GetStaticTileRequest request);
     }
 }
