@@ -8,5 +8,6 @@ namespace Services.MapboxMaps
         Task<VectorTile> GetVectorTileMap();
         Task<RasterTile> GetRasterTileMap();
         Task<StaticImage> GetStaticImageMap();
+        Task<StaticTile> GetStaticTileMap();
     }
 }
