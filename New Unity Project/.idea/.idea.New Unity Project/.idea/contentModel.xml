@@ -13,6 +13,7 @@
           <e p="Models" t="Include">
             <e p="Map" t="Include">
               <e p="RasterTile.cs" t="Include" />
+              <e p="StaticImage.cs" t="Include" />
               <e p="VectorTile.cs" t="Include" />
             </e>
             <e p="Response.cs" t="Include" />
