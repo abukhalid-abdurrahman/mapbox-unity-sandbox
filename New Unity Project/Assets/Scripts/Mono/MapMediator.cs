@@ -1,4 +1,5 @@
-﻿using Enums;
+﻿using System.Threading.Tasks;
+using Enums;
 using Services.MapboxMaps;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -12,11 +13,11 @@ namespace Mono
 
         private IMapboxMapService _mapboxMapService;
 
-        private void Start()
+        private async void Start()
         {
             _mapboxMapService = new MapboxMapService();
-            var rasterImage = _mapboxMapService
-                .GetRasterTileMap().GetAwaiter().GetResult();
+            var rasterImage = await _mapboxMapService
+                .GetRasterTileMap();
             if (rasterImage.StatusCode == ResponseStatusCode.Success)
             {
                 var tex = new Texture2D(2, 2);

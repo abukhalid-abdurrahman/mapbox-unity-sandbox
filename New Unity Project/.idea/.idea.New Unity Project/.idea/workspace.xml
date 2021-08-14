@@ -20,11 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mono.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Response.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12b729be58ed25e71bae2e37effa2bbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/14/140e5f927428f3b51f91138e522ad8c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/57/57b4a999b58393c1fef9a560cd6d28ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/73/73bf41517f810f6b674ba2d6aa085a6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/81/8183d8ae63eb3e62e54b48513b92f371" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a3/a32f4cf626d363358d033d6ccde57813.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a3/a32f4cf626d363358d033d6ccde57813.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +61,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/38/fbbfcfb7/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/7e/9dcd761d/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/a9/8d8c6315/TaskAwaiter`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/51/d18b2a64/Task.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,9 +77,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Map/StaticImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Map/StaticTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Response.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Response.cs" />
       </list>
     </option>
   </component>
@@ -60,6 +94,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3501309" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29973823" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -76,10 +112,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27672">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="27672" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -94,7 +130,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628904209736</updated>
-      <workItem from="1628904218518" duration="4846000" />
+      <workItem from="1628904218518" duration="5705000" />
+      <workItem from="1628910188423" duration="1781000" />
     </task>
     <servers />
   </component>
@@ -113,11 +150,76 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1559" height="307" key="GridCell.Tab.0.bottom" timestamp="1628912445448">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912445448" />
+    <state width="1559" height="307" key="GridCell.Tab.0.center" timestamp="1628912445448">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.center/0.0.1603.873@0.0.1603.873" timestamp="1628912445448" />
+    <state width="1559" height="307" key="GridCell.Tab.0.left" timestamp="1628912445447">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.left/0.0.1603.873@0.0.1603.873" timestamp="1628912445447" />
+    <state width="1559" height="307" key="GridCell.Tab.0.right" timestamp="1628912445448">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.0.right/0.0.1603.873@0.0.1603.873" timestamp="1628912445448" />
+    <state width="1559" height="307" key="GridCell.Tab.1.bottom" timestamp="1628912450388">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.1.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912450388" />
+    <state width="1559" height="307" key="GridCell.Tab.1.center" timestamp="1628912450387">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.1.center/0.0.1603.873@0.0.1603.873" timestamp="1628912450387" />
+    <state width="1559" height="307" key="GridCell.Tab.1.left" timestamp="1628912450387">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.1.left/0.0.1603.873@0.0.1603.873" timestamp="1628912450387" />
+    <state width="1559" height="307" key="GridCell.Tab.1.right" timestamp="1628912450387">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.1.right/0.0.1603.873@0.0.1603.873" timestamp="1628912450387" />
+    <state width="1559" height="307" key="GridCell.Tab.2.bottom" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.2.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.2.center" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.2.center/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.2.left" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.2.left/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.2.right" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.2.right/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.3.bottom" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.3.bottom/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.3.center" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.3.center/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.3.left" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.3.left/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
+    <state width="1559" height="307" key="GridCell.Tab.3.right" timestamp="1628912445224">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state width="1559" height="307" key="GridCell.Tab.3.right/0.0.1603.873@0.0.1603.873" timestamp="1628912445224" />
     <state x="621" y="125" key="RiderGenerateDialog" timestamp="1628905652765">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
@@ -126,5 +228,63 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1603.873@0.0.1603.873" timestamp="1628905222256" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs</url>
+          <line>38</line>
+          <properties documentPath="E:\Faridun's Projects\NextGen World\mapbox-unity-sandbox\New Unity Project\Assets\Scripts\Services\MapboxMaps\MapboxMapService.cs" initialLine="36">
+            <startOffsets>
+              <option value="1309" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1330" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs</url>
+          <line>17</line>
+          <properties documentPath="E:\Faridun's Projects\NextGen World\mapbox-unity-sandbox\New Unity Project\Assets\Scripts\Mono\MapMediator.cs" initialLine="17">
+            <startOffsets>
+              <option value="416" />
+            </startOffsets>
+            <endOffsets>
+              <option value="535" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs</url>
+          <line>64</line>
+          <properties documentPath="E:\Faridun's Projects\NextGen World\mapbox-unity-sandbox\New Unity Project\Assets\Scripts\Services\MapboxMaps\MapboxMapService.cs" initialLine="62">
+            <startOffsets>
+              <option value="2180" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2222" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs</url>
+          <line>29</line>
+          <properties documentPath="E:\Faridun's Projects\NextGen World\mapbox-unity-sandbox\New Unity Project\Assets\Scripts\Services\MapboxMaps\MapboxMapService.cs" initialLine="29">
+            <startOffsets>
+              <option value="838" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1018" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
