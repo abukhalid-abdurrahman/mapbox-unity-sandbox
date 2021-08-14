@@ -19,6 +19,9 @@
             </e>
             <e p="Response.cs" t="Include" />
           </e>
+          <e p="Mono" t="Include">
+            <e p="MapMediator.cs" t="Include" />
+          </e>
           <e p="Services" t="Include">
             <e p="MapboxMaps" t="Include">
               <e p="IMapboxMapService.cs" t="Include" />
