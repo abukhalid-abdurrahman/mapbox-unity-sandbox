@@ -3,11 +3,11 @@ using Newtonsoft.Json;
 
 namespace Models.Geocoding
 {
-    public class ForwardGeocodingProperties
+    public class Properties
     {
     }
 
-    public class ForwardGeocodingGeometry
+    public class Geometry
     {
         [JsonProperty("type")]
         public string Type { get; set; }
@@ -22,7 +22,7 @@ namespace Models.Geocoding
         public bool Omitted { get; set; }
     }
 
-    public class ForwardGeocodingContext
+    public class Context
     {
         [JsonProperty("id")]
         public string Id { get; set; }
@@ -37,7 +37,7 @@ namespace Models.Geocoding
         public string ShortCode { get; set; }
     }
 
-    public class ForwardGeocodingFeature
+    public class Feature
     {
         [JsonProperty("id")]
         public string Id { get; set; }
@@ -52,7 +52,7 @@ namespace Models.Geocoding
         public double Relevance { get; set; }
 
         [JsonProperty("properties")]
-        public ForwardGeocodingProperties ForwardGeocodingProperties { get; set; }
+        public Properties Properties { get; set; }
 
         [JsonProperty("text")]
         public string Text { get; set; }
@@ -70,16 +70,16 @@ namespace Models.Geocoding
         public List<double> Center { get; set; }
 
         [JsonProperty("geometry")]
-        public ForwardGeocodingGeometry ForwardGeocodingGeometry { get; set; }
+        public Geometry Geometry { get; set; }
 
         [JsonProperty("address")]
         public string Address { get; set; }
 
         [JsonProperty("context")]
-        public List<ForwardGeocodingContext> Context { get; set; }
+        public List<Context> Context { get; set; }
     }
 
-    public class ForwardGeocoding
+    public class Geocoding
     {
         [JsonProperty("type")]
         public string Type { get; set; }
@@ -88,7 +88,7 @@ namespace Models.Geocoding
         public List<string> Query { get; set; }
 
         [JsonProperty("features")]
-        public List<ForwardGeocodingFeature> Features { get; set; }
+        public List<Feature> Features { get; set; }
 
         [JsonProperty("attribution")]
         public string Attribution { get; set; }   

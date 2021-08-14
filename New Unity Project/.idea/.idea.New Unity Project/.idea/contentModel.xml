@@ -18,7 +18,7 @@
           </e>
           <e p="Models" t="Include">
             <e p="Geocoding" t="Include">
-              <e p="ForwardGeocoding.cs" t="Include" />
+              <e p="Geocoding.cs" t="Include" />
             </e>
             <e p="Map" t="Include">
               <e p="RasterTile.cs" t="Include" />
@@ -29,6 +29,7 @@
             <e p="Requests" t="Include">
               <e p="GetForwardGeocodingRequest.cs" t="Include" />
               <e p="GetRasterTileRequest.cs" t="Include" />
+              <e p="GetReverseGeocodingRequest.cs" t="Include" />
               <e p="GetStaticImageRequest.cs" t="Include" />
               <e p="GetStaticTileRequest.cs" t="Include" />
               <e p="GetVectorTileRequest.cs" t="Include" />
