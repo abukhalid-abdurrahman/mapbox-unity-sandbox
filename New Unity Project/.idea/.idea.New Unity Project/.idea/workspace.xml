@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="" />
+    <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +40,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Map/StaticImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Map/StaticTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628904209736</updated>
-      <workItem from="1628904218518" duration="1035000" />
+      <workItem from="1628904218518" duration="1347000" />
     </task>
     <servers />
   </component>
@@ -108,5 +111,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="125" key="RiderGenerateDialog" timestamp="1628905276300">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state x="621" y="125" key="RiderGenerateDialog/0.0.1603.873@0.0.1603.873" timestamp="1628905276300" />
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1628905222256">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1603.873@0.0.1603.873" timestamp="1628905222256" />
   </component>
 </project>

@@ -1,28 +1,38 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
+using Models;
 using Models.Map;
 
 namespace Services.MapboxMaps
 {
     public class MapboxMapService : IMapboxMapService
     {
-        public async Task<VectorTile> GetVectorTileMap()
+        private readonly string _mapBoxToken;
+        private readonly string _baseUrl;
+        public MapboxMapService()
         {
-            throw new System.NotImplementedException();
+            _baseUrl = "https://api.mapbox.com";
+            _mapBoxToken = "pk.eyJ1IjoiZmFoYS1iZXJkaWV2IiwiYSI6ImNrczl3MTdvMzFhMDkyb3MwNzFlNTZpcmwifQ.aeRE3fuGsx2eyvArIoXPUg";
         }
 
-        public async Task<RasterTile> GetRasterTileMap()
+        public async Task<Response<VectorTile>> GetVectorTileMap()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
-        public async Task<StaticImage> GetStaticImageMap()
+        public async Task<Response<RasterTile>> GetRasterTileMap()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
-        public async Task<StaticTile> GetStaticTileMap()
+        public async Task<Response<StaticImage>> GetStaticImageMap()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
+        }
+
+        public async Task<Response<StaticTile>> GetStaticTileMap()
+        {
+            throw new NotImplementedException();
         }
     }
 }
