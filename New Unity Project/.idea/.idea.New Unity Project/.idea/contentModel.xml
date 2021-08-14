@@ -12,6 +12,9 @@
             <e p="ResponseStatusCode.cs" t="Include" />
             <e p="VectorTileFormat.cs" t="Include" />
           </e>
+          <e p="Extensions" t="Include">
+            <e p="EnumExtension.cs" t="Include" />
+          </e>
           <e p="Models" t="Include">
             <e p="Map" t="Include">
               <e p="RasterTile.cs" t="Include" />

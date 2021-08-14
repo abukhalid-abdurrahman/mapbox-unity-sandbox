@@ -1,4 +1,6 @@
-﻿namespace Models.Requests
+﻿using Enums;
+
+namespace Models.Requests
 {
     public class GetRasterTileRequest
     {
@@ -6,6 +8,6 @@
         public decimal Zoom { get; set; }
         public decimal X { get; set; }
         public decimal Y { get; set; }
-        public string Format { get; set; }
+        public RasterTileFormat Format { get; set; }
     }
 }
