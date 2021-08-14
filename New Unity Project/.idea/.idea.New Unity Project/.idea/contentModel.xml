@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Enums" t="Include">
+            <e p="RasterTileFormat.cs" t="Include" />
             <e p="ResponseStatusCode.cs" t="Include" />
             <e p="VectorTileFormat.cs" t="Include" />
           </e>
