@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Enums;
+using Extensions;
 using Models;
 using Models.Map;
 using Models.Requests;
@@ -38,17 +39,14 @@ namespace Services.MapboxMaps
             return responseBytes;
         }
         
-        public async Task<Response<VectorTile>> GetVectorTileMap()
+        public async Task<Response<VectorTile>> GetVectorTileMap(GetVectorTileRequest request)
         {
+            if(request == null)
+                throw new ArgumentNullException();
             var response = new Response<VectorTile>();
             try
             {
-                var tilesetId = "mapbox.mapbox-streets-v8";
-                var zoom = "1";
-                var x = "0";
-                var y = "0";
-                var format = "mvt";
-                response.Payload.Bytes = await RetrieveBytes($"v4/{tilesetId}/{zoom}/{x}/{y}.{format}?access_token={_mapBoxToken}");
+                response.Payload.Bytes = await RetrieveBytes($"v4/{request.TilesetId}/{request.Zoom}/{request.X}/{request.Y}.{request.Format.GetDescription()}?access_token={_mapBoxToken}");
                 return response;
             }
             catch (Exception e)
@@ -66,7 +64,7 @@ namespace Services.MapboxMaps
             var response = new Response<RasterTile>();
             try
             {
-                response.Payload.Bytes = await RetrieveBytes($"v4/{request.TilesetId}/{request.Zoom}/{request.X}/{request.Y}@2x.{request.Format}?access_token={_mapBoxToken}");
+                response.Payload.Bytes = await RetrieveBytes($"v4/{request.TilesetId}/{request.Zoom}/{request.X}/{request.Y}@2x.{request.Format.GetDescription()}?access_token={_mapBoxToken}");
                 return response;
             }
             catch (Exception e)

@@ -7,7 +7,7 @@ namespace Services.MapboxMaps
 {
     public interface IMapboxMapService
     {
-        Task<Response<VectorTile>> GetVectorTileMap();
+        Task<Response<VectorTile>> GetVectorTileMap(GetVectorTileRequest request);
         Task<Response<RasterTile>> GetRasterTileMap(GetRasterTileRequest request);
         Task<Response<StaticImage>> GetStaticImageMap();
         Task<Response<StaticTile>> GetStaticTileMap();

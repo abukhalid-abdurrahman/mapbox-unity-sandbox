@@ -24,6 +24,7 @@
             </e>
             <e p="Requests" t="Include">
               <e p="GetRasterTileRequest.cs" t="Include" />
+              <e p="GetVectorTileRequest.cs" t="Include" />
             </e>
             <e p="Response.cs" t="Include" />
           </e>

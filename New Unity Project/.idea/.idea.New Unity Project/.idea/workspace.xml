@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetRasterTileRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetRasterTileRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetVectorTileRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetVectorTileRequest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +48,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Map/StaticImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Map/StaticTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Response.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/MapMediator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enums/VectorTileFormat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enums/RasterTileFormat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetRasterTileRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/EnumExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetVectorTileRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" />
       </list>
     </option>
@@ -102,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628904209736</updated>
       <workItem from="1628904218518" duration="5705000" />
-      <workItem from="1628910188423" duration="3172000" />
+      <workItem from="1628910188423" duration="3641000" />
     </task>
     <servers />
   </component>
