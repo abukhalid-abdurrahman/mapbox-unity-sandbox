@@ -75,22 +75,12 @@ namespace Services.MapboxMaps
             }
         }
 
-        public async Task<Response<StaticImage>> GetStaticImageMap()
+        public async Task<Response<StaticImage>> GetStaticImageMap(GetStaticImageRequest request)
         {
             var response = new Response<StaticImage>();
             try
             {
-                var username = "mapbox";
-                var styleId = "streets-v11";
-                var overlay = "static";
-                var zoom = "15.25";
-                var lon = "-122.4241";
-                var lat = "37.78";
-                var bearing = "0";
-                var pitch = "60";
-                var width = "400";
-                var height = "400";
-                response.Payload.Bytes = await RetrieveBytes($"styles/v1/{username}/{styleId}/static/{overlay}/{lon},{lat},{zoom},{bearing},{pitch}/{width}x{height}@2x?access_token={_mapBoxToken}");
+                response.Payload.Bytes = await RetrieveBytes($"styles/v1/{request.Username}/{request.StyleId}/static/{request.Overlay}/{request.Longitude},{request.Latitude},{request.Zoom},{request.Bearing},{request.Pitch}/{request.Width}x{request.Height}@2x?access_token={_mapBoxToken}");
                 return response;
             }
             catch (Exception e)
