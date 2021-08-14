@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetStaticTileRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetStaticTileRequest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ForwardGeocoding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ForwardGeocoding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/IMapboxGeocodingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/IMapboxGeocodingService.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +59,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/EnumExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetVectorTileRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetStaticImageRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetStaticTileRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/IMapboxMapService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMaps/MapboxMapService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetStaticTileRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxGeocoding/IMapboxGeocodingService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Geocoding/ForwardGeocoding.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628904209736</updated>
       <workItem from="1628904218518" duration="5705000" />
-      <workItem from="1628910188423" duration="4949000" />
+      <workItem from="1628910188423" duration="7128000" />
     </task>
     <servers />
   </component>

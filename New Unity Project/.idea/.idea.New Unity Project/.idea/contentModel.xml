@@ -16,6 +16,9 @@
             <e p="EnumExtension.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
+            <e p="Geocoding" t="Include">
+              <e p="ForwardGeocoding.cs" t="Include" />
+            </e>
             <e p="Map" t="Include">
               <e p="RasterTile.cs" t="Include" />
               <e p="StaticImage.cs" t="Include" />
@@ -34,6 +37,9 @@
             <e p="MapMediator.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
+            <e p="MapboxGeocoding" t="Include">
+              <e p="IMapboxGeocodingService.cs" t="Include" />
+            </e>
             <e p="MapboxMaps" t="Include">
               <e p="IMapboxMapService.cs" t="Include" />
               <e p="MapboxMapService.cs" t="Include" />
