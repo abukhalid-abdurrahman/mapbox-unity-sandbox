@@ -25,6 +25,18 @@ namespace Services.MapboxMaps
             };
         }
 
+        private async Task<byte[]> RetrieveBytes(string url)
+        {
+            var httpRequest = new HttpRequestMessage()
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri(url)
+            };
+            var responseMessage = await _httpClient.SendAsync(httpRequest);
+            var responseBytes = await responseMessage.Content.ReadAsByteArrayAsync();
+            return responseBytes;
+        }
+        
         public async Task<Response<VectorTile>> GetVectorTileMap()
         {
             var response = new Response<VectorTile>();
@@ -35,15 +47,7 @@ namespace Services.MapboxMaps
                 var x = "0";
                 var y = "0";
                 var format = "mvt";
-                var httpRequest = new HttpRequestMessage()
-                {
-                    Method = HttpMethod.Get,
-                    RequestUri = new Uri($"/v4/{tilesetId}/{zoom}/{x}/{y}.{format}?access_token={_mapBoxToken}")
-                };
-
-                var responseMessage = await _httpClient.SendAsync(httpRequest);
-                var responseBytes = await responseMessage.Content.ReadAsByteArrayAsync();
-                response.Payload.Bytes = responseBytes;
+                response.Payload.Bytes = await RetrieveBytes($"/v4/{tilesetId}/{zoom}/{x}/{y}.{format}?access_token={_mapBoxToken}");
                 return response;
             }
             catch (Exception e)
@@ -56,17 +60,71 @@ namespace Services.MapboxMaps
 
         public async Task<Response<RasterTile>> GetRasterTileMap()
         {
-            throw new NotImplementedException();
+            var response = new Response<RasterTile>();
+            try
+            {
+                var tilesetId = "mapbox.satellite";
+                var zoom = "1";
+                var x = "0";
+                var y = "0";
+                var format = "jpg90";
+                response.Payload.Bytes = await RetrieveBytes($"/v4/{tilesetId}/{zoom}/{x}/{y}@2x.{format}?access_token={_mapBoxToken}");
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.StatusCode = ResponseStatusCode.Fail;
+                response.Message = e.Message;
+                return response;
+            }
         }
 
         public async Task<Response<StaticImage>> GetStaticImageMap()
         {
-            throw new NotImplementedException();
+            var response = new Response<StaticImage>();
+            try
+            {
+                var username = "mapbox";
+                var styleId = "streets-v11";
+                var overlay = "static";
+                var zoom = "15.25";
+                var lon = "-122.4241";
+                var lat = "37.78";
+                var bearing = "0";
+                var pitch = "60";
+                var width = "400";
+                var height = "400";
+                response.Payload.Bytes = await RetrieveBytes($"/styles/v1/{username}/{styleId}/static/{overlay}/{lon},{lat},{zoom},{bearing},{pitch}/{width}x{height}@2x?access_token={_mapBoxToken}");
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.StatusCode = ResponseStatusCode.Fail;
+                response.Message = e.Message;
+                return response;
+            }
         }
 
         public async Task<Response<StaticTile>> GetStaticTileMap()
         {
-            throw new NotImplementedException();
+            var response = new Response<StaticTile>();
+            try
+            {
+                var x = "1";
+                var y = "0";
+                var username = "mapbox";
+                var styleId = "satellite-v9";
+                var tilesize = "1";
+                var z = "1";
+                response.Payload.Bytes = await RetrieveBytes($"/styles/v1/{username}/{styleId}/tiles/{tilesize}/{z}/{x}/{y}@2x?access_token={_mapBoxToken}");
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.StatusCode = ResponseStatusCode.Fail;
+                response.Message = e.Message;
+                return response;
+            }        
         }
     }
 }
