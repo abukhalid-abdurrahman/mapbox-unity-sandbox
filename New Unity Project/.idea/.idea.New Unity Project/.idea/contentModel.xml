@@ -17,6 +17,7 @@
             <e p="EnumExtension.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
+            <e p="Coordinates.cs" t="Include" />
             <e p="Geocoding" t="Include">
               <e p="Geocoding.cs" t="Include" />
             </e>
@@ -27,6 +28,7 @@
               <e p="VectorTile.cs" t="Include" />
             </e>
             <e p="Requests" t="Include">
+              <e p="GetBatchGeocodingRequest.cs" t="Include" />
               <e p="GetForwardGeocodingRequest.cs" t="Include" />
               <e p="GetRasterTileRequest.cs" t="Include" />
               <e p="GetReverseGeocodingRequest.cs" t="Include" />
