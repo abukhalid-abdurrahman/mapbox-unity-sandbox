@@ -2,22 +2,21 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Enums;
-using Extensions;
 using Models;
-using Models.Direction;
+using Models.Matrix;
 using Models.Requests;
 using Newtonsoft.Json;
 
-namespace Services.MapboxDirections
+namespace Services.MapboxMatrix
 {
-    public class MapboxDirectionsService : IMapboxDirectionsService
+    public class MapboxMatrixService : IMapboxMatrixService
     {
         private readonly string _mapBoxToken;
         private readonly string _baseUrl;
 
         private readonly HttpClient _httpClient;
         
-        public MapboxDirectionsService()
+        public MapboxMatrixService()
         {
             _baseUrl = "https://api.mapbox.com/";
             _mapBoxToken = "pk.eyJ1IjoiZmFoYS1iZXJkaWV2IiwiYSI6ImNrczl3MTdvMzFhMDkyb3MwNzFlNTZpcmwifQ.aeRE3fuGsx2eyvArIoXPUg";
@@ -28,16 +27,16 @@ namespace Services.MapboxDirections
             };
         }
         
-        public async Task<Response<Direction>> RetrieveDirections(GetDirectionRequest request)
+        public async Task<Response<Matrix>> GetMatrix(GetMatrixRequest request)
         {
             if (request == null)
                 throw new ArgumentNullException();
             
-            var response = new Response<Direction>();
+            var response = new Response<Matrix>();
             
             try
             {
-                var url = $"directions/v5/{request.RoutingProfile.GetDescription()}/{string.Join(";",request.Coordinates)}?access_token={_mapBoxToken}";
+                var url = $"directions-matrix/v1/{request.RoutingProfile}/{string.Join(";", request.Coordinates)}?access_token={_mapBoxToken}";
                 var requestMessage = new HttpRequestMessage()
                 {
                     Method = HttpMethod.Get,
@@ -51,7 +50,7 @@ namespace Services.MapboxDirections
                     return response;
                 }
                 var responseContent = await responseMessage.Content.ReadAsStringAsync();
-                var entity = JsonConvert.DeserializeObject<Direction>(responseContent);
+                var entity = JsonConvert.DeserializeObject<Matrix>(responseContent);
                 response.Payload = entity;
                 return response;
             }

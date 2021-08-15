@@ -31,10 +31,14 @@
               <e p="StaticTile.cs" t="Include" />
               <e p="VectorTile.cs" t="Include" />
             </e>
+            <e p="Matrix" t="Include">
+              <e p="Matrix.cs" t="Include" />
+            </e>
             <e p="Requests" t="Include">
               <e p="GetDirectionRequest.cs" t="Include" />
               <e p="GetForwardBatchGeocodingRequest.cs" t="Include" />
               <e p="GetForwardGeocodingRequest.cs" t="Include" />
+              <e p="GetMatrixRequest.cs" t="Include" />
               <e p="GetRasterTileRequest.cs" t="Include" />
               <e p="GetReverseBatchGeocodingRequest.cs" t="Include" />
               <e p="GetReverseGeocodingRequest.cs" t="Include" />
@@ -50,6 +54,7 @@
           <e p="Services" t="Include">
             <e p="MapboxDirections" t="Include">
               <e p="IMapboxDirectionsService.cs" t="Include" />
+              <e p="MapboxDirectionsService.cs" t="Include" />
             </e>
             <e p="MapboxGeocoding" t="Include">
               <e p="IMapboxGeocodingService.cs" t="Include" />
@@ -58,6 +63,9 @@
             <e p="MapboxMaps" t="Include">
               <e p="IMapboxMapService.cs" t="Include" />
               <e p="MapboxMapService.cs" t="Include" />
+            </e>
+            <e p="MapboxMatrix" t="Include">
+              <e p="IMapboxMatrixService.cs" t="Include" />
             </e>
           </e>
         </e>

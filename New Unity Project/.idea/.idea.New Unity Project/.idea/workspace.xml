@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxDirections/IMapboxDirectionsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxDirections/IMapboxDirectionsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Matrix.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Matrix/Matrix.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Matrix/Matrix.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetMatrixRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetMatrixRequest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMatrix.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMatrix/IMapboxMatrixService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMatrix/IMapboxMatrixService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxDirections/MapboxDirectionsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxDirections/MapboxDirectionsService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +84,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetDirectionRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Direction/Direction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxDirections/IMapboxDirectionsService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetMatrixRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Matrix/Matrix.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxDirections/MapboxDirectionsService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxMatrix/IMapboxMatrixService.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +142,7 @@
       <workItem from="1628904218518" duration="5705000" />
       <workItem from="1628910188423" duration="13115000" />
       <workItem from="1628936624953" duration="4443000" />
-      <workItem from="1628991578397" duration="3036000" />
+      <workItem from="1628991578397" duration="5514000" />
     </task>
     <servers />
   </component>
