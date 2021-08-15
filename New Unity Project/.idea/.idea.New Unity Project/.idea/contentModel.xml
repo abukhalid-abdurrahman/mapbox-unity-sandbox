@@ -11,6 +11,7 @@
             <e p="GeocodingEndpoint.cs" t="Include" />
             <e p="RasterTileFormat.cs" t="Include" />
             <e p="ResponseStatusCode.cs" t="Include" />
+            <e p="RoutingProfile.cs" t="Include" />
             <e p="VectorTileFormat.cs" t="Include" />
           </e>
           <e p="Extensions" t="Include">
@@ -43,6 +44,9 @@
             <e p="MapMediator.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
+            <e p="MapboxDirections" t="Include">
+              <e p="IMapboxDirectionsService.cs" t="Include" />
+            </e>
             <e p="MapboxGeocoding" t="Include">
               <e p="IMapboxGeocodingService.cs" t="Include" />
               <e p="MapboxGeocodingService.cs" t="Include" />
