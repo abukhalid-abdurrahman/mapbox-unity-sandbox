@@ -36,7 +36,7 @@ namespace Services.MapboxIsochrone
             
             try
             {
-                var url = $"/isochrone/v1/{request.RoutingProfile}/{request.Coordinate}?{request.ContoursMeters}?access_token={_mapBoxToken}";
+                var url = $"isochrone/v1/{request.RoutingProfile}/{request.Coordinate}?{request.ContoursMeters}?access_token={_mapBoxToken}";
                 var requestMessage = new HttpRequestMessage()
                 {
                     Method = HttpMethod.Get,

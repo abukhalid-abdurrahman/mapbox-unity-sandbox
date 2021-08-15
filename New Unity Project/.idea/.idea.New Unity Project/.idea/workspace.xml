@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Isochrone.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Isochrone/Isochrone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Isochrone/Isochrone.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetIsochroneRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Requests/GetIsochroneRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone/IMapboxIsochrone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone/IMapboxIsochrone.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone/MapboxIsochrone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone/MapboxIsochrone.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50348e5f-a1a0-437c-a4f4-51cb00be42ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +81,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Isochrone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/Isochrone/Isochrone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone/IMapboxIsochrone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/MapboxIsochrone/MapboxIsochrone.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +137,7 @@
       <workItem from="1628904218518" duration="5705000" />
       <workItem from="1628910188423" duration="13115000" />
       <workItem from="1628936624953" duration="4443000" />
-      <workItem from="1628991578397" duration="7568000" />
+      <workItem from="1628991578397" duration="7912000" />
     </task>
     <servers />
   </component>
