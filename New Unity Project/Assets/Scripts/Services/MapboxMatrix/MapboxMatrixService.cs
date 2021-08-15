@@ -27,6 +27,13 @@ namespace Services.MapboxMatrix
             };
         }
         
+        /// <summary>
+        /// Represents an Mapbox Matrix
+        /// More Information On: https://docs.mapbox.com/api/navigation/matrix/
+        /// </summary>
+        /// <param name="request">URL Parameters</param>
+        /// <returns>Built Matrix Response from Mapbox API</returns>
+        /// <exception cref="ArgumentNullException">If request is null</exception>
         public async Task<Response<Matrix>> GetMatrix(GetMatrixRequest request)
         {
             if (request == null)

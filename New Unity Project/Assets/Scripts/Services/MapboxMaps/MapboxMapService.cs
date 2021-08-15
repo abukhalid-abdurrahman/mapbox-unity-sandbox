@@ -26,7 +26,12 @@ namespace Services.MapboxMaps
                 Timeout = TimeSpan.FromMinutes(1)
             };
         }
-
+        
+        /// <summary>
+        /// Sends get request to Mapbox API for getting tile maps
+        /// </summary>
+        /// <param name="url">Represents url with required parameters</param>
+        /// <returns>Tile Map Bytes</returns>
         private async Task<byte[]> RetrieveBytes(string url)
         {
             var httpRequest = new HttpRequestMessage()
@@ -39,6 +44,13 @@ namespace Services.MapboxMaps
             return responseBytes;
         }
         
+        /// <summary>
+        /// Represents an Mapbox API for getting Vector Tile Map
+        /// More Information On: https://docs.mapbox.com/api/maps/vector-tiles/
+        /// </summary>
+        /// <param name="request">URL Parameters</param>
+        /// <returns>Vector Tile Bytes</returns>
+        /// <exception cref="ArgumentNullException">If request is null</exception>
         public async Task<Response<VectorTile>> GetVectorTileMap(GetVectorTileRequest request)
         {
             if(request == null)
@@ -57,6 +69,13 @@ namespace Services.MapboxMaps
             }
         }
 
+        /// <summary>
+        /// Represents an Mapbox API for getting Raster Tile Map
+        /// More Information On: https://docs.mapbox.com/api/maps/raster-tiles/
+        /// </summary>
+        /// <param name="request">URL Parameters</param>
+        /// <returns>Raster Tile Bytes</returns>
+        /// <exception cref="ArgumentNullException">If request is null</exception>
         public async Task<Response<RasterTile>> GetRasterTileMap(GetRasterTileRequest request)
         {
             if(request == null)
@@ -75,6 +94,13 @@ namespace Services.MapboxMaps
             }
         }
 
+        /// <summary>
+        /// Represents an Mapbox API for getting Static Image Map
+        /// More Information On: https://docs.mapbox.com/api/maps/static-images/
+        /// </summary>
+        /// <param name="request">URL Parameters</param>
+        /// <returns>Static Image Bytes</returns>
+        /// <exception cref="ArgumentNullException">If request is null</exception>
         public async Task<Response<StaticImage>> GetStaticImageMap(GetStaticImageRequest request)
         {
             if(request == null)
@@ -93,6 +119,13 @@ namespace Services.MapboxMaps
             }
         }
 
+        /// <summary>
+        /// Represents an Mapbox API for getting Static Tile Map
+        /// More Information On: https://docs.mapbox.com/api/maps/static-tiles/
+        /// </summary>
+        /// <param name="request">URL Parameters</param>
+        /// <returns>Static Tile Bytes</returns>
+        /// <exception cref="ArgumentNullException">If request is null</exception>
         public async Task<Response<StaticTile>> GetStaticTileMap(GetStaticTileRequest request)
         {
             if(request == null)
