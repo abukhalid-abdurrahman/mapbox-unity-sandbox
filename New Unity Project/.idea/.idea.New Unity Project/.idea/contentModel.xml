@@ -19,6 +19,9 @@
           </e>
           <e p="Models" t="Include">
             <e p="Coordinate.cs" t="Include" />
+            <e p="Direction" t="Include">
+              <e p="Direction.cs" t="Include" />
+            </e>
             <e p="Geocoding" t="Include">
               <e p="Geocoding.cs" t="Include" />
             </e>
@@ -29,6 +32,7 @@
               <e p="VectorTile.cs" t="Include" />
             </e>
             <e p="Requests" t="Include">
+              <e p="GetDirectionRequest.cs" t="Include" />
               <e p="GetForwardBatchGeocodingRequest.cs" t="Include" />
               <e p="GetForwardGeocodingRequest.cs" t="Include" />
               <e p="GetRasterTileRequest.cs" t="Include" />
