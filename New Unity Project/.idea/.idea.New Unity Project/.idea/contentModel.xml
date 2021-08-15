@@ -25,6 +25,9 @@
             <e p="Geocoding" t="Include">
               <e p="Geocoding.cs" t="Include" />
             </e>
+            <e p="Isochrone" t="Include">
+              <e p="Isochrone.cs" t="Include" />
+            </e>
             <e p="Map" t="Include">
               <e p="RasterTile.cs" t="Include" />
               <e p="StaticImage.cs" t="Include" />
@@ -38,6 +41,7 @@
               <e p="GetDirectionRequest.cs" t="Include" />
               <e p="GetForwardBatchGeocodingRequest.cs" t="Include" />
               <e p="GetForwardGeocodingRequest.cs" t="Include" />
+              <e p="GetIsochroneRequest.cs" t="Include" />
               <e p="GetMatrixRequest.cs" t="Include" />
               <e p="GetRasterTileRequest.cs" t="Include" />
               <e p="GetReverseBatchGeocodingRequest.cs" t="Include" />
@@ -60,12 +64,17 @@
               <e p="IMapboxGeocodingService.cs" t="Include" />
               <e p="MapboxGeocodingService.cs" t="Include" />
             </e>
+            <e p="MapboxIsochrone" t="Include">
+              <e p="IMapboxIsochrone.cs" t="Include" />
+              <e p="MapboxIsochrone.cs" t="Include" />
+            </e>
             <e p="MapboxMaps" t="Include">
               <e p="IMapboxMapService.cs" t="Include" />
               <e p="MapboxMapService.cs" t="Include" />
             </e>
             <e p="MapboxMatrix" t="Include">
               <e p="IMapboxMatrixService.cs" t="Include" />
+              <e p="MapboxMatrixService.cs" t="Include" />
             </e>
           </e>
         </e>
